@@ -1,7 +1,7 @@
 body {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
-  margin: 0 auto;
+  // margin: 0 auto;
   font-size: 16px;
   line-height: 1.65;
   word-break: break-word;
@@ -11,4 +11,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   hyphens: auto;
+}
+
+.my-home-wall {
+  background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%);
+  height: 80vh;
+  padding: 50px !important;
 }
