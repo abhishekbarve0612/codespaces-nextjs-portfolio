@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
-import '../global.css'
+import '../global.scss'
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossOrigin="anonymous"
       />
-      <script src="https://kit.fontawesome.com/06e7747196.js" crossorigin="anonymous" />
+      <script src="https://kit.fontawesome.com/06e7747196.js" crossOrigin="anonymous" />
       <Component {...pageProps} />
     </>
   );
