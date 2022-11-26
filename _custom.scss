@@ -1,0 +1,31 @@
+// Light Mode CS-1
+$lightYellow: #ffeaa5 !global;
+$lightRed: #fe5f55 !global;
+$lightGreen: #c7efcf !global;
+$lightGrey: #eef5db !global;
+
+// Light Mode CS-2
+$lightPeach: #ea907a !global;
+$lightOrange: #fbc687 !global;
+$lightYellow2: #f4f7c5 !global;
+$lightTeal: #aacdbe !global;
+
+// CS-3
+$color1: #395144 !global;
+$color2: #4e6c50 !global;
+$color3: #aa8b56 !global;
+$color4: #f0ebce !global;
+
+// CS - 4
+$color11: #f0f5f9 !global;
+$color12: #c9d6df !global;
+$color13: #52616b !global;
+$color14: #1e2022 !global;
+
+// Dark Mode Color Scheme
+$darkBlack: #1b2430 !global;
+$darkNavy: #51557e !global;
+$darkPurple: #816797 !global;
+$darkBeige: #d6d5a8 !global;
+
+@import "./navBar.scss";

@@ -1,0 +1,47 @@
+.navbar {
+  border: 1px solid $color14;
+  background-color: $color12 !important;
+  padding: 0px;
+  .container-fluid {
+    padding-right: 0px !important;
+  }
+
+  .navbar-brand,
+  .nav-link.active {
+    color: $color14;
+  }
+
+  .nav-link {
+    padding: 16px 8px;
+    color: $color14;
+    &:hover {
+      background-color: $color13 !important;
+      color: $color11 !important;
+    }
+
+    &.dark-mode-btn {
+      border-radius: 0px;
+      display: block;
+      background-color: $color14;
+      color: $color11;
+    }
+  }
+}
+
+body.dark-mode {
+  background-color: $darkBlack;
+
+  .navbar {
+    border-color: $darkBeige;
+    background-color: $darkPurple !important;
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: $darkBeige;
+    }
+    .nav-link.dark-mode-btn {
+      background-color: $darkBeige !important;
+      color: $darkBlack;
+    }
+  }
+}
